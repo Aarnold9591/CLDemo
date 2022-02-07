@@ -9,6 +9,7 @@ namespace StaticQuiz
         public int NonStaticProperty { get; set; } = 0;
         // every time we create an instance of TestClass
         // increment the StaticProperty AND the NonStaticProperty
+        // inserting comment so I can make another commit because I may have figured it out, and am making pushes to the wrong branch. 
         public TestClass()
         {
             StaticProperty++;
